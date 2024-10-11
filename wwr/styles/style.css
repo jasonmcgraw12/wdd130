@@ -13,9 +13,10 @@ nav{
 a:link{
     text-decoration: none;
 }
-nav a{
+nav a button{
     text-align: center;
     color: #f79a31;
+    background-color: #3C474B;
 }
 .nav-link-list{
     text-align: center;
