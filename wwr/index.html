@@ -7,56 +7,67 @@
     <meta name="description" content="html, css">
     <meta name="author" content="Jason McGraw">
     <link rel="icon" type="image/icon" href="images/favicon">
+    <link rel="stylesheet" href="styles/style.css">
     <title>Home Page</title>
 </head>
 <body>
-    <header>
-        <a href="index.html"><img id="logo" src="images/wwr_logo.jpg" alt="Logo for wireframe practice"></a>
-        <nav class="navbar">
-            <ul class="nav link list">
-                <li>
-                    <a href="../aboutme/index.html">About</a>
-                </li>
-                <li>
-                    <a href="contactus.html">Contact</a>
-                </li>
-                <li>
-                    <a href="site-plan-rafting.html">White Water Rafting Siteplan</a>
-                </li>
-                <li>
-                    <a href="positioning.html">Positioning Activity</a>
-                </li>
-                <!-- 
-                not sure if I'll need these
-                <a href="#">Personal Website</a>
-                <a href="#">Personal Siteplan</a>
-                -->              
-            </ul>
-        </nav>
-    </header>
-        <div id="hero">
-            <div class="hero_text">
-                <h1>Hero</h1>
-                <!-- didnt think this was important
-                <p>This is how to make a wireframe page</p>
-                <button>Buy now</button>
-                -->
+    <div id="content">
+        <header>
+            <nav class="navbar">
+                <a href="index.html"><img id="logo" src="images/wwr_logo.jpg" alt="Logo for wireframe practice"></a>
+                <ul class="nav link list">
+                    <li>
+                        <a href="../aboutme/index.html">About</a>
+                    </li>
+                    <li>
+                        <a href="contactus.html">Contact</a>
+                    </li>
+                    <li>
+                        <a href="site-plan-rafting.html">White Water Rafting Siteplan</a>
+                    </li>
+                    <li>
+                        <a href="positioning.html">Positioning Activity</a>
+                    </li>
+                    <!-- 
+                    not sure if I'll need these
+                    <a href="#">Personal Website</a>
+                    <a href="#">Personal Siteplan</a>
+                    -->              
+                </ul>
+            </nav>
+        </header>
+            <div id="hero">
+                <div class="hero_text">
+                    <h1>Hero</h1>
+                    <p>This is how to make a wireframe page</p>
+                    <button class="button-box">Buy now</button>
+                </div>
+    
+                <img id="hero-image" src="../aboutme/images/hero.png" alt="people rafting down a river">
             </div>
-
-            <img src="../aboutme/images/hero.png" alt="Placehold Image">
-        </div>
-        <main>
-            <h2>Gallary</h2>
-            <img src="../aboutme/images/DesolationCanyon.jpg" alt="gallary placeholder">
-            <img src="../aboutme/images/GrandCanyon1.jpg" alt="gallary placeholder">
-            <img src="../aboutme/images/GrandCanyon2.jpg" alt="gallary placeholder">
-        </main>
-        <footer>
-            <h1>Contact me</h1>
-            <p>&copy; 2024 Jason McGraw</p>
-            <a href="https://www.instagram.com/actual_npc"><img src="../aboutme/images/instagram.png" alt="Instagram Icon"></a>
-            <a href="https://facebook.com"><img src="../aboutme/images/facebook.png" alt="Facebook Icon"></a>
-            <a href="https://x.com"><img src="../aboutme/images/twitter.png" alt="gallary placeholder"></a>
-        </footer>
+            <main>
+                <h1>Gallary</h1>
+                <section>
+                    <img class="card-img" src="../aboutme/images/DesolationCanyon.jpg" alt="desolation canyon">
+                    <h2>Wild Rivers</h2>
+                </section>
+                <section>
+                    <img class="card-img" src="../aboutme/images/GrandCanyon1.jpg" alt="grand canyon river">
+                    <h2>Serene Rivers</h2>
+                </section>
+                <section>
+                    <img class="card-img" src="../aboutme/images/GrandCanyon2.jpg" alt="top down view of grand canyon with river bend">
+                <h2>Bendy Rivers</h2>
+                </section>
+                <div id="background"></div>
+            </main>
+            <footer>
+                <h1>Contact me</h1>
+                <p>&copy; 2024 Jason McGraw</p>
+                <a href="https://www.instagram.com/actual_npc" target="_blank"><img src="../aboutme/images/instagram.png" alt="Instagram Icon"></a>
+                <a href="https://facebook.com" target="_blank"><img src="../aboutme/images/facebook.png" alt="Facebook Icon"></a>
+                <a href="https://x.com" target="_blank"><img src="../aboutme/images/twitter.png" alt="gallary placeholder"></a>
+            </footer>
+    </div>
 </body>
 </html>
