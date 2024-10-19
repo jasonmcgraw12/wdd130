@@ -40,7 +40,7 @@ nav .nav-links:hover{
     justify-content: left;
 }
 body{
-    background-color: #3C474B;
+    background-color: white;
     margin: 0;
     padding: 0;
 }
@@ -77,7 +77,7 @@ p{
     display: block;
     background-color: #3C474B;
     color: white;
-    border: solid 2px, #2c9fd3;
+    border: solid 2px, white;
     padding: 10px;
 }
 .button-box:hover{
@@ -112,7 +112,7 @@ h2{
     margin: 100px 0;
 }
 .textbox{
-    border: white, solid, 3px;
+    border: #3C474B, solid, 3px;
 }
 footer{
     background-color: #f79a31;
