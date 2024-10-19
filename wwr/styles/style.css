@@ -21,7 +21,7 @@ nav a{
 }
 a:link{
     text-decoration: none;
-    font-family: "Old Standard TT", serif;
+    font-family: "Old Standard TT", serif, 'Times New Roman', Times;
 }
 nav .nav-links{
     color: #f79a31;
@@ -47,13 +47,13 @@ body{
 h1{
     text-align: center;
     text-decoration: underline;
-    font-family: "Bebas Neue", sans-serif;
+    font-family: "Bebas Neue", sans-serif, serif;
     margin-top: 0;
     padding-top: 21.44px;
 }
 p{
     text-align: center;
-    font-family: "Old Standard TT", serif;
+    font-family: "Old Standard TT", serif, 'Times New Roman', Times;
     padding: 10px;
     margin-bottom: 0;
 }
@@ -68,7 +68,7 @@ p{
     width: 100%;
 }
 #hero h2{
-    font-family: "Old Standard TT", serif;
+    font-family: "Old Standard TT", serif, 'Times New Roman', Times;
     font-size: 32px;
     text-align: center;
 }
@@ -92,7 +92,7 @@ section{
     text-align: center;
 }
 h2{
-    font-family: "Old Standard TT", serif;;
+    font-family: "Old Standard TT", serif, 'Times New Roman', Times;
 }
 .card-img{
     width: 400px;
