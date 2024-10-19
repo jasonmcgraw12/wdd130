@@ -28,11 +28,11 @@ nav .nav-links{
     background-color: #3C474B;
     margin: 2px;
     padding: 2px;
-    border: solid #f79a31, 1px;
+    border: solid #f79a31 1px;
 }
 nav .nav-links:hover{
     padding: 0px;
-    border: solid #f79a31, 3px;
+    border: solid #f79a31 3px;
 }
 .nav-link-list{
     list-style-type: none;
@@ -77,12 +77,12 @@ p{
     display: block;
     background-color: #3C474B;
     color: white;
-    border: solid 2px, white;
+    border: solid 2px white;
     padding: 10px;
 }
 .button-box:hover{
     padding: 8px;
-    border: solid, 4px, white;
+    border: solid 4px white;
     cursor: pointer;
 }
 main{
@@ -97,7 +97,7 @@ h2{
 .card-img{
     width: 400px;
     height: 400px;
-    border: #f79a31, solid, 10px;
+    border: #f79a31 solid 10px;
 }
 .card-icon{
     width: 80px;
@@ -112,7 +112,7 @@ h2{
     margin: 100px 0;
 }
 .textbox{
-    border: #3C474B, solid, 3px;
+    border: #3C474B solid 3px;
 }
 footer{
     background-color: #f79a31;
