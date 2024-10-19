@@ -27,11 +27,11 @@ nav .nav-links{
     color: #f79a31;
     background-color: #3C474B;
     margin: 2px;
-    padding: 2px;
+    padding: 10px;
     border: solid #f79a31 1px;
 }
 nav .nav-links:hover{
-    padding: 0px;
+    padding: 8px;
     border: solid #f79a31 3px;
 }
 .nav-link-list{
