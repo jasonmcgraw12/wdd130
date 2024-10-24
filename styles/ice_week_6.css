@@ -32,11 +32,10 @@ h1{
     width: 100%;
 }
 #cherry-red{
+    grid-row: 2/3;
+    grid-column: 2/3;
     align-self: center;
-    color: red;
+    color: darkred;
     font-size: 3em;
     z-index: 1;
-}
-.tempgrid{
-    border: 1px black solid;
 }
