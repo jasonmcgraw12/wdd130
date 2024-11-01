@@ -203,9 +203,10 @@ footer{
         flex-direction: column;
         background-color: #2c9fd3;
     }
-    nav a {
+    nav a, nav .nav-links {
         display: block;
         padding: 15px;
+        margin: 5px;
     }
     #hero{
         margin-top: 0;
