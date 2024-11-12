@@ -1,0 +1,46 @@
+body{
+    background-color: black;
+    text-align: center;
+}
+.main-body {
+    width: 300px;
+    background-color: white;
+    border: 10px solid black;
+    border-radius: 50px;
+}
+img{
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+h3{
+    color: cornflowerblue;
+    margin-bottom: 0;
+}
+h1{
+    font-weight: 900;
+    margin-top: 0;
+}
+.paragraph-text{
+    padding: 0 50px;
+    font-size: 1.25em;
+    color: grey;
+}
+footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 50px 50px;
+    background-color: rgb(59, 78, 167);
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.footer-box{
+    border-right: grey solid 1px;
+}
+.footer-text{
+    margin: 0 auto auto auto;
+    color: white;
+}
+.large-footer-text{
+    color: white;
+}
